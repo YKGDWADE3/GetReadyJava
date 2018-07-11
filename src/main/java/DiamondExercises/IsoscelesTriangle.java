@@ -12,7 +12,7 @@ public class IsoscelesTriangle {
             Space space = new Space();
             for (int i = 1; i <= n; i++) {
                 space.draw(n - i);
-                horizontalLine.drawHorizontalLine(i);
+                horizontalLine.drawHorizontalLine(i * 2 - 1);
             }
         } else {
             return;
