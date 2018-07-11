@@ -1,3 +1,5 @@
+package TriangleExercises;
+
 public class AsteriskEasy {
     public AsteriskEasy() {
     }
